@@ -1,0 +1,149 @@
+.games,
+.jumanji-1 {
+  position: relative;
+  max-width: 100%;
+}
+.jumanji-1 {
+  width: 550px;
+  height: 411px;
+  display: none;
+  z-index: 0;
+}
+.games {
+  width: 437px;
+  font-weight: 600;
+  background: linear-gradient(-73.3deg, #0b467d, #147fe3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  white-space: pre-wrap;
+  display: inline-block;
+  z-index: 2;
+}
+.icon {
+  position: absolute;
+  top: -46.8px;
+  left: -19.3px;
+  width: 1578.4px;
+  height: 2972px;
+  object-fit: contain;
+  z-index: 1;
+}
+.assassin-1-icon,
+.banner-god-of-war-1-icon,
+.banner-items-icon,
+.banner-uncharted-3-linganno-icon {
+  position: absolute;
+  top: 393px;
+  left: 163px;
+  border-radius: var(--br-21xl);
+  width: 563px;
+  height: 412px;
+  object-fit: cover;
+  z-index: 2;
+}
+.assassin-1-icon,
+.banner-items-icon,
+.banner-uncharted-3-linganno-icon {
+  top: 2105px;
+  width: 550px;
+  height: 419px;
+}
+.assassin-1-icon,
+.banner-items-icon {
+  top: 985px;
+  width: 537px;
+  height: 427px;
+}
+.banner-items-icon {
+  top: 1558px;
+  left: 150px;
+  width: 563px;
+  height: 401px;
+}
+.asphalt8-1-icon,
+.banner-items-icon1,
+.banner-marvels-spider-man-mil-icon,
+.fortnit-1-icon {
+  position: absolute;
+  top: 393px;
+  left: 834px;
+  border-radius: var(--br-21xl);
+  width: 549px;
+  height: 438px;
+  object-fit: cover;
+  z-index: 2;
+}
+.asphalt8-1-icon,
+.banner-items-icon1,
+.banner-marvels-spider-man-mil-icon {
+  top: 1003px;
+  left: 820px;
+  width: 563px;
+  height: 419px;
+}
+.banner-items-icon1,
+.banner-marvels-spider-man-mil-icon {
+  top: 1576px;
+  left: 834px;
+  width: 550px;
+  height: 401px;
+}
+.banner-marvels-spider-man-mil-icon {
+  top: 2109px;
+  left: 826px;
+  width: 563px;
+  height: 412px;
+}
+.banner-carousel {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.root {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-black);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 164px var(--padding-xl) 2599px 552px;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-41xl);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1000px) {
+  .root {
+    padding-left: 276px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 975px) {
+  .games {
+    font-size: var(--font-size-29xl);
+  }
+}
+@media screen and (max-width: 725px) {
+  .root {
+    padding-left: 138px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .games {
+    font-size: var(--font-size-17xl);
+  }
+  .root {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
